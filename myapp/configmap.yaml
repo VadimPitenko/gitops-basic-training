@@ -1,0 +1,8 @@
+piVersion: v1
+kind: ConfigMap
+metadata:
+  name: myapp-config
+data:
+  index.html: |
+    Congratulations! <p>
+    This is my own app deployed via ArgoCD!
